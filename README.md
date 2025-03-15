@@ -1,66 +1,135 @@
-# Mckay's App Template
+# Encanta - AI-Driven Content Platform for SMEs
 
-This is a full-stack app template for courses on [Takeoff](https://JoinTakeoff.com/).
+Encanta is an AI-powered content platform built to help startups and SMEs produce professional, strategically aligned content without the need for specialized marketing or technical AI skills. The platform combines the latest AI technology with strategic marketing expertise to empower businesses with both a self-service SaaS dashboard and high-touch consulting services.
 
-## Sponsors
+## Features
 
-If you are interested in sponsoring my repos, please contact me at [ads@takeoffai.org](mailto:ads@takeoffai.org).
-
-Or sponsor me directly on [GitHub Sponsors](https://github.com/sponsors/mckaywrigley).
+- **Dual-Mode Platform Architecture**: A marketing website that communicates both self-service and consulting offerings, and a secured SaaS dashboard for ongoing user and workspace management.
+- **Modular AI Workflows**: Custom AI agents for ideation, research, drafting, and editing with automated quality checks and fallback mechanisms.
+- **Workspace & Team Collaboration**: Creation and management of multiple workspaces with role-based access controls, real-time document editing, commenting, version control, and task management.
+- **Brand Customization & Profile Configuration**: Tools to upload logos, select color palettes, and configure typography with input guidelines for tone and messaging.
+- **Knowledge Management**: File upload interfaces for storing external documents with semantic search using vector embeddings via Pinecone for detailed contextual retrieval.
+- **Dynamic Content Generation Interface**: Real-time progress tracking on AI tasks with user-friendly interfaces for content review, editing, and final approval.
+- **Payment and Subscription Management**: Stripe integration for managing recurring subscriptions, trial periods, and customer billing.
+- **Onboarding & Guided Tutorials**: Interactive walkthroughs, pre-built templates, tooltips, and FAQ resources for both DIY and consulting clients.
 
 ## Tech Stack
 
-- IDE: [Cursor](https://www.cursor.com/)
-- AI Tools: [V0](https://v0.dev/), [Perplexity](https://www.perplexity.com/)
-- Frontend: [Next.js](https://nextjs.org/docs), [Tailwind](https://tailwindcss.com/docs/guides/nextjs), [Shadcn](https://ui.shadcn.com/docs/installation), [Framer Motion](https://www.framer.com/motion/introduction/)
-- Backend: [PostgreSQL](https://www.postgresql.org/about/), [Supabase](https://supabase.com/), [Drizzle](https://orm.drizzle.team/docs/get-started-postgresql), [Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)
-- Auth: [Clerk](https://clerk.com/)
-- Payments: [Stripe](https://stripe.com/)
-- Analytics: [PostHog](https://posthog.com/)
+- **Frontend**: Next.js, Tailwind CSS, Shadcn, Framer Motion
+- **Backend**: Supabase, Drizzle ORM, Server Actions
+- **Authentication**: Clerk
+- **Payments**: Stripe
+- **Analytics**: PostHog
+- **AI & Data Processing**: Custom OpenAI agents, Pinecone for vector embedding and semantic search
+- **Deployment**: Vercel
 
-## Prerequisites
+## Getting Started
 
-You will need accounts for the following services.
+### Prerequisites
 
-They all have free plans that you can use to get started.
+- Node.js (v20.2.1 or later)
+- PostgreSQL database
+- Clerk account for authentication
+- Stripe account for payments
+- PostHog account for analytics
+- OpenAI API key
+- Pinecone account for vector search
 
-- Create a [Cursor](https://www.cursor.com/) account
-- Create a [GitHub](https://github.com/) account
-- Create a [Supabase](https://supabase.com/) account
-- Create a [Clerk](https://clerk.com/) account
-- Create a [Stripe](https://stripe.com/) account
-- Create a [PostHog](https://posthog.com/) account
-- Create a [Vercel](https://vercel.com/) account
+### Installation
 
-You will likely not need paid plans unless you are building a business.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/encanta.git
+   cd encanta
+   ```
 
-## Environment Variables
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```bash
-# DB (Supabase)
-DATABASE_URL=
+3. Set up environment variables:
+   - Copy `.env.example` to `.env.local`
+   - Fill in the required environment variables
 
-# Auth (Clerk)
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/login
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/signup
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-# Payments (Stripe)
-STRIPE_SECRET_KEY=
-STRIPE_WEBHOOK_SECRET=
-NEXT_PUBLIC_STRIPE_PORTAL_LINK=
-NEXT_PUBLIC_STRIPE_PAYMENT_LINK_YEARLY=
-NEXT_PUBLIC_STRIPE_PAYMENT_LINK_MONTHLY=
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-# Analytics (PostHog)
-NEXT_PUBLIC_POSTHOG_KEY=
-NEXT_PUBLIC_POSTHOG_HOST=
+## Project Structure
+
+- `actions` - Server actions
+  - `db` - Database related actions
+  - Other actions
+- `app` - Next.js app router
+  - `api` - API routes
+  - `(marketing)` - Marketing pages
+  - `(auth)` - Authentication pages
+  - `(dashboard)` - Dashboard pages
+- `components` - Shared components
+  - `ui` - UI components
+  - `utilities` - Utility components
+- `db` - Database
+  - `schema` - Database schemas
+- `lib` - Library code
+  - `hooks` - Custom hooks
+- `public` - Static assets
+- `types` - Type definitions
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Encanta Agents Hub
+
+This project is structured as a monorepo using npm workspaces. The main code is located in the `encanta` directory.
+
+## Project Structure
+
+```
+encanta/
+├── apps/
+│   ├── web/         # Next.js web application
+│   └── api/         # FastAPI backend (if applicable)
+├── packages/        # Shared packages
+└── config/          # Shared configuration
 ```
 
-## Setup
+## Development
 
-1. Clone the repository
-2. Copy `.env.example` to `.env.local` and fill in the environment variables from above
-3. Run `npm install` to install dependencies
-4. Run `npm run dev` to run the app locally
+To start the development server:
+
+```bash
+npm run dev
+```
+
+This will start the development servers for all workspaces.
+
+## Building
+
+To build all applications:
+
+```bash
+npm run build
+```
+
+## Starting in Production Mode
+
+To start the applications in production mode:
+
+```bash
+npm run start
+```
+
+## Project History
+
+This project was originally structured as a standalone Next.js application. It has been migrated to a monorepo structure to better support multiple applications and shared packages.
+
+The migration was performed using scripts in the `migration_scripts` directory. The original files have been preserved in the root directory for reference, but all active development should now take place in the `encanta` directory.
+
+## License
+
+MIT
