@@ -26,8 +26,16 @@ All notable changes to the Encanta project will be documented in this file.
   - `HeroSection`: Hero section for the landing page
   - `FeaturesSection`: Features section for the landing page
   - `PricingSection`: Pricing section for the landing page
+- Shared packages structure:
+  - `@encanta/ui`: For shared UI components
+  - `@encanta/utils`: For shared utility functions
+  - `@encanta/config`: For shared configuration
 
 ### Changed
+- Migrated project to a monorepo structure using npm workspaces
+  - Reorganized code into `apps/web`, `apps/api`, and `packages` directories
+  - Updated build and development scripts to support the monorepo
+  - Created a unified README with comprehensive documentation
 - Updated project structure to a more modular approach with separate directories for frontend and backend
 
 ### Fixed
