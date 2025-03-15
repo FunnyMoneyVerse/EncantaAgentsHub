@@ -2,6 +2,32 @@
 
 Encanta is an AI-powered content platform built to help startups and SMEs produce professional, strategically aligned content without the need for specialized marketing or technical AI skills. The platform combines the latest AI technology with strategic marketing expertise to empower businesses with both a self-service SaaS dashboard and high-touch consulting services.
 
+## Monorepo Structure
+
+This project is organized as a monorepo using npm workspaces. The main structure is:
+
+```
+encanta/                      # Root monorepo directory
+├── apps/                     # Applications
+│   ├── web/                  # Next.js web application
+│   │   ├── src/              # Source code
+│   │   │   ├── actions/      # Server actions
+│   │   │   ├── app/          # Next.js app router
+│   │   │   ├── components/   # UI components
+│   │   │   ├── db/           # Database schemas and utilities
+│   │   │   ├── lib/          # Utility functions
+│   │   │   ├── styles/       # Global styles
+│   │   │   └── types/        # TypeScript type definitions
+│   │   ├── public/           # Static assets
+│   │   └── package.json      # Web app dependencies
+│   └── api/                  # API server (if applicable)
+├── packages/                 # Shared packages
+│   ├── ui/                   # Shared UI components
+│   ├── utils/                # Shared utility functions
+│   └── config/               # Shared configuration
+└── package.json              # Root package.json for workspace management
+```
+
 ## Features
 
 - **Dual-Mode Platform Architecture**: A marketing website that communicates both self-service and consulting offerings, and a secured SaaS dashboard for ongoing user and workspace management.
@@ -27,7 +53,8 @@ Encanta is an AI-powered content platform built to help startups and SMEs produc
 
 ### Prerequisites
 
-- Node.js (v20.2.1 or later)
+- Node.js (v18+ recommended)
+- npm (v8+ recommended)
 - PostgreSQL database
 - Clerk account for authentication
 - Stripe account for payments
@@ -49,86 +76,79 @@ Encanta is an AI-powered content platform built to help startups and SMEs produc
    ```
 
 3. Set up environment variables:
-   - Copy `.env.example` to `.env.local`
-   - Fill in the required environment variables
+   ```bash
+   cp encanta/apps/web/.env.example encanta/apps/web/.env.local
+   ```
+   Then edit the `.env.local` file with your API keys and configuration.
 
 4. Run the development server:
    ```bash
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the web app.
 
-## Project Structure
+## Available Scripts
 
-- `actions` - Server actions
-  - `db` - Database related actions
-  - Other actions
-- `app` - Next.js app router
-  - `api` - API routes
-  - `(marketing)` - Marketing pages
-  - `(auth)` - Authentication pages
-  - `(dashboard)` - Dashboard pages
-- `components` - Shared components
-  - `ui` - UI components
-  - `utilities` - Utility components
-- `db` - Database
-  - `schema` - Database schemas
-- `lib` - Library code
-  - `hooks` - Custom hooks
-- `public` - Static assets
-- `types` - Type definitions
+From the root directory, you can run:
 
-## License
+- `npm run dev` - Start all development servers
+- `npm run dev:web` - Start only the web development server
+- `npm run dev:api` - Start only the API development server
+- `npm run build` - Build all applications
+- `npm run start` - Start all applications in production mode
+- `npm run lint` - Run linting on all workspaces
+- `npm run format` - Format code with Prettier
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Working with the Monorepo
 
-# Encanta Agents Hub
+### Adding a New Feature to the Web App
 
-This project is structured as a monorepo using npm workspaces. The main code is located in the `encanta` directory.
+1. Navigate to the web app directory:
+   ```bash
+   cd encanta/apps/web/src
+   ```
 
-## Project Structure
+2. Create your new component, page, or feature
+   ```bash
+   # Example: Creating a new component
+   mkdir -p components/NewFeature
+   touch components/NewFeature/index.tsx
+   ```
 
-```
-encanta/
-├── apps/
-│   ├── web/         # Next.js web application
-│   └── api/         # FastAPI backend (if applicable)
-├── packages/        # Shared packages
-└── config/          # Shared configuration
-```
+3. Import and use shared packages if needed:
+   ```tsx
+   // Example: Using a shared UI component
+   import { Button } from "@encanta/ui";
+   ```
 
-## Development
+### Creating a Shared Package
 
-To start the development server:
+1. Create a new directory in the packages folder:
+   ```bash
+   mkdir -p encanta/packages/my-package
+   ```
 
-```bash
-npm run dev
-```
+2. Initialize the package:
+   ```bash
+   cd encanta/packages/my-package
+   npm init -y
+   ```
 
-This will start the development servers for all workspaces.
+3. Update the package.json to use the @encanta scope:
+   ```json
+   {
+     "name": "@encanta/my-package",
+     "version": "0.1.0",
+     "private": true
+   }
+   ```
 
-## Building
+## Contributing
 
-To build all applications:
-
-```bash
-npm run build
-```
-
-## Starting in Production Mode
-
-To start the applications in production mode:
-
-```bash
-npm run start
-```
-
-## Project History
-
-This project was originally structured as a standalone Next.js application. It has been migrated to a monorepo structure to better support multiple applications and shared packages.
-
-The migration was performed using scripts in the `migration_scripts` directory. The original files have been preserved in the root directory for reference, but all active development should now take place in the `encanta` directory.
+1. Create a new branch for your feature
+2. Make your changes
+3. Submit a pull request
 
 ## License
 
