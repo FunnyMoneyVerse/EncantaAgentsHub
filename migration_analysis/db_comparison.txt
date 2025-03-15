@@ -1,0 +1,18 @@
+Comparing db with encanta/apps/web/src/db
+----------------------------------------
+Files that exist only in db:
+  migrations/0000_nostalgic_mauler.sql
+  migrations/meta/0000_snapshot.json
+  migrations/meta/_journal.json
+  schema/profiles-schema.ts
+  schema/todos-schema.ts
+
+Files that exist in both locations but might need merging:
+  db.ts
+  schema/brand-profiles-schema.ts
+  schema/content-projects-schema.ts
+  schema/documents-schema.ts
+  schema/index.ts
+  schema/knowledge-files-schema.ts
+  schema/subscriptions-schema.ts
+  schema/team-members-schema.ts

@@ -1,0 +1,10 @@
+Comparing lib with encanta/apps/web/src/lib
+----------------------------------------
+Files that exist only in lib:
+  hooks/use-copy-to-clipboard.tsx
+  hooks/use-mobile.tsx
+  hooks/use-toast.ts
+  stripe.ts
+
+Files that exist in both locations but might need merging:
+  utils.ts

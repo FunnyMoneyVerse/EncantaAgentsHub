@@ -1,0 +1,19 @@
+Comparing app with encanta/apps/web/src/app
+----------------------------------------
+Files that exist only in app:
+  (auth)/layout.tsx
+  (auth)/login/[[...login]]/page.tsx
+  (auth)/signup/[[...signup]]/page.tsx
+  (marketing)/about/page.tsx
+  (marketing)/contact/page.tsx
+  (marketing)/pricing/page.tsx
+  api/stripe/webhooks/route.ts
+  globals.css
+  todo/_components/todo-list.tsx
+  todo/layout.tsx
+  todo/page.tsx
+
+Files that exist in both locations but might need merging:
+  (marketing)/layout.tsx
+  (marketing)/page.tsx
+  layout.tsx

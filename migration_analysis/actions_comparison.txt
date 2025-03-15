@@ -1,0 +1,10 @@
+Comparing actions with encanta/apps/web/src/actions
+----------------------------------------
+Files that exist only in actions:
+  db/profiles-actions.ts
+  db/todos-actions.ts
+  stripe-actions.ts
+
+Files that exist in both locations but might need merging:
+  db/brand-profiles-actions.ts
+  db/workspaces-actions.ts

@@ -1,0 +1,26 @@
+{
+    "name": "encanta",
+    "version": "0.1.0",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev:web": "npm run dev --workspace=encanta-web",
+        "dev:api": "npm run dev --workspace=encanta-api",
+        "dev": "concurrently \"npm run dev:web\" \"npm run dev:api\"",
+        "build:web": "npm run build --workspace=encanta-web",
+        "build:api": "npm run build --workspace=encanta-api",
+        "build": "npm run build:web && npm run build:api",
+        "start:web": "npm run start --workspace=encanta-web",
+        "start:api": "npm run start --workspace=encanta-api",
+        "start": "concurrently \"npm run start:web\" \"npm run start:api\"",
+        "lint": "npm run lint --workspaces",
+        "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2",
+        "prettier": "^3.3.3"
+    }
+}

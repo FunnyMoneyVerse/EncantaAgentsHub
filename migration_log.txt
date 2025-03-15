@@ -1,0 +1,11 @@
+Migration started at Sat Mar 15 15:50:02 GMT 2025
+Migrating files that exist only in the root project...
+Copied: actions/db/profiles-actions.ts -> encanta/apps/web/src/actions/db/profiles-actions.ts
+Copied: actions/db/todos-actions.ts -> encanta/apps/web/src/actions/db/todos-actions.ts
+Copied: actions/stripe-actions.ts -> encanta/apps/web/src/actions/stripe-actions.ts
+Copied: db/schema/profiles-schema.ts -> encanta/apps/web/src/db/schema/profiles-schema.ts
+Copied: db/schema/todos-schema.ts -> encanta/apps/web/src/db/schema/todos-schema.ts
+Merged: db/schema/index.ts -> encanta/apps/web/src/db/schema/index.ts
+Copied: .env.local -> encanta/apps/web/.env.local
+Copied: .env.example -> encanta/apps/web/.env.example
+Migration completed at Sat Mar 15 15:50:02 GMT 2025

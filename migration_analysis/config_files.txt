@@ -1,0 +1,6 @@
+Configuration files that might need migration:
+  .env.local
+  .env.example
+  next.config.mjs
+  tailwind.config.ts
+  postcss.config.mjs

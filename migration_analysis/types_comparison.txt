@@ -1,0 +1,7 @@
+Comparing types with encanta/apps/web/src/types
+----------------------------------------
+Files that exist only in types:
+  server-action-types.ts
+
+Files that exist in both locations but might need merging:
+  index.ts

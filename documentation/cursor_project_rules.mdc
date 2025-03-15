@@ -1,0 +1,114 @@
+---
+description: Apply these rules when creating the project
+globs:
+alwaysApply: true
+---
+## Project Overview
+
+*   **Type:** cursor_project_rules
+*   **Description:** I’m building an AI-powered content platform called Encanta that combines advanced AI technology with strategic marketing expertise. The platform enables startups and SMEs to produce professional, strategically aligned content without needing specialized marketing knowledge or technical AI skills.
+*   **Primary Goal:** Simplify content creation for startups and SMEs by automating ideation, research, drafting, and editing through modular AI workflows, while also providing a dual-mode experience (self-service and consulting) that ensures consistent, high-quality, on-brand outputs.
+
+## Project Structure
+
+### Framework-Specific Routing
+
+*   **Directory Rules:**
+
+    *   [next.js (Pages Router)]: Utilizes a flat structure in the `src/pages` directory. Public marketing pages are placed under `src/pages/marketing/` and authenticated dashboard pages under `src/pages/app/` to clearly separate public and private content flows.
+    *   Example 1: "Next.js 14 (App Router)" → `app/[route]/page.tsx` conventions *(Not applicable here)*
+    *   Example 2: "Next.js (Pages Router)" → `src/pages/[route].tsx` pattern
+    *   Example 3: "React Router 6" → `src/routes/` with `createBrowserRouter`
+
+### Core Directories
+
+*   **Versioned Structure:**
+
+    *   [src/pages/marketing]: Contains public-facing marketing pages that articulate the platform’s dual value propositions and conversion flows.
+    *   [src/pages/app]: Houses the authenticated dashboard for SaaS users, where guided onboarding, workspace management, and AI content generation tools are implemented.
+    *   [backend]: A separate directory for FastAPI endpoints handling high-performance API requests and background processing tasks.
+    *   [utils]: Shared utility functions that support various modules across both frontend and backend components.
+
+### Key Files
+
+*   **Stack-Versioned Patterns:**
+
+    *   [pages/_app.js]: Implements global configurations and customizations for the Next.js Pages Router structure.
+    *   [src/pages/marketing/index.js]: Entry point for the marketing website following the pages router pattern.
+    *   [backend/main.py]: FastAPI application entry point that configures asynchronous API routes and integrates with external services like Supabase and Stripe.
+
+## Tech Stack Rules
+
+*   **Version Enforcement:**
+
+    *   [next.js (pages router)]: Adhere strictly to the flat file structure within `src/pages` and do not incorporate App Router conventions (i.e., avoid nested `app/` folders beyond `src/pages/app/`).
+    *   [tailwind_css]: Use configuration files (tailwind.config.js) to enforce theme consistency and purge unused styles.
+    *   [fastapi]: Use asynchronous endpoints with Pydantic for data validation and ensure robust error handling.
+    *   [supabase]: Enforce best practices for secure API keys, row-level security, and optimized SQL queries.
+    *   [clerk]: Integrate secure authentication flows while maintaining role-based access control.
+    *   [pinecone]: Leverage best practices for vector indexing and management to facilitate efficient semantic search operations.
+    *   [stripe]: Follow secure payment integration protocols including PCI compliance and use of webhooks for real-time billing updates.
+
+## PRD Compliance
+
+*   **Non-Negotiable:**
+
+    *   "Encanta is an AI-powered content platform built to help startups and SMEs produce professional, strategically aligned content without the need for specialized marketing or technical AI skills." This requires a dual-mode approach (self-service vs. consulting), robust workspace collaboration, modular AI workflows with quality assurance, and secure payment integration with Stripe.
+
+## App Flow Integration
+
+*   **Stack-Aligned Flow:**
+
+    *   Example: "Next.js Pages Router Auth Flow → `src/pages/app/auth/signin.jsx` (or similar) uses Clerk for secure session management and guided onboarding flows within the SaaS dashboard."
+
+## Best Practices
+
+*   **next.js**
+
+    *   Use file-based routing and component modularization to separate marketing and authenticated sections.
+    *   Leverage built-in optimizations such as automatic code splitting and server-side generation where appropriate.
+    *   Ensure consistent testing with unit and integration test suites via frameworks like Jest.
+
+*   **tailwind_css**
+
+    *   Configure PurgeCSS to remove unused styles for optimal performance.
+    *   Maintain a centralized configuration file for theme settings and custom utilities.
+    *   Use responsive design principles to ensure mobile-friendly experiences.
+
+*   **fastapi**
+
+    *   Design asynchronous endpoints using async/await for improved performance.
+    *   Implement Pydantic models for rigorous data validation and serialization.
+    *   Ensure proper exception handling and detailed logging for debugging purposes.
+
+*   **supabase**
+
+    *   Make use of Supabase’s real-time capabilities and ensure row-level security is configured.
+    *   Regularly back up data and monitor performance metrics.
+    *   Optimize SQL queries and use indexes where appropriate.
+
+*   **clerk**
+
+    *   Ensure integration of Clerk’s secure authentication mechanisms.
+    *   Utilize role-based access controls and permission management features.
+    *   Keep security practices updated in line with the latest compliance standards.
+
+*   **pinecone**
+
+    *   Manage vector indices efficiently and ensure correct dimensionality in embeddings.
+    *   Regularly monitor index performance and adjust parameters as necessary.
+    *   Incorporate robust error handling for search queries.
+
+*   **stripe**
+
+    *   Use Stripe’s official SDKs to ensure secure and compliant billing processes.
+    *   Implement webhooks to handle real-time subscription events and billing updates.
+    *   Regularly review and test payment flows for consistency and security.
+
+## Rules
+
+*   Derive folder/file patterns **directly** from techStackDoc versions.
+*   If Next.js 14 App Router: Enforce `app/` directory with nested route folders. *(Not applicable: use Next.js (Pages Router) here.)*
+*   If Pages Router: Use `src/pages/*.tsx` (or .js) flat structure.
+*   Mirror this logic for React Router, SvelteKit, etc.
+*   Never mix version patterns (e.g., no `pages/` in App Router projects).
