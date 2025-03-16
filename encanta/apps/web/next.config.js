@@ -1,13 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    swcMinify: true,
     images: {
         domains: ['images.unsplash.com', 'avatars.githubusercontent.com'],
     },
-    experimental: {
-        serverActions: true,
-    },
+    // Server Actions are enabled by default in Next.js 15
     async redirects() {
         return [
             {
@@ -17,6 +14,9 @@ const nextConfig = {
             },
         ];
     },
+    // Use the new serverExternalPackages option instead of the deprecated serverComponentsExternalPackages
+    serverExternalPackages: [],
+    // Remove the deprecated devIndicators.buildActivity option
 };
 
 module.exports = nextConfig; 

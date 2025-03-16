@@ -1,88 +1,64 @@
-"use server"
+import { Metadata } from 'next';
+import Link from 'next/link';
+import Navbar from '@/components/marketing/Navbar';
+import Footer from '@/components/marketing/Footer';
+import { Analytics } from '@/components/analytics';
+import { fontMontserrat, fontRoboto } from '@/lib/fonts';
+import '@/styles/globals.css';
 
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
+export async function generateMetadata(): Promise<Metadata> {
+    return {
+        title: {
+            template: '%s | Encanta',
+            default: 'Encanta | Strategic AI for Remarkable Content',
+        },
+        description: 'Encanta is an AI-powered content platform that empowers startups and SMEs to produce professional, strategically aligned content without specialized marketing or technical AI skills.',
+        keywords: ['content creation', 'AI writing', 'marketing content', 'ai content platform', 'content strategy'],
+        authors: [{ name: 'Encanta Team' }],
+        creator: 'Encanta',
+        openGraph: {
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://encanta.io',
+            siteName: 'Encanta',
+            title: 'Encanta | Strategic AI for Remarkable Content',
+            description: 'Encanta is an AI-powered content platform that empowers startups and SMEs to produce professional, strategically aligned content without specialized marketing or technical AI skills.',
+            images: [
+                {
+                    url: 'https://encanta.io/images/social-card.png',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Encanta Social Card',
+                },
+            ],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: 'Encanta | Strategic AI for Remarkable Content',
+            description: 'Encanta is an AI-powered content platform that empowers startups and SMEs to produce professional, strategically aligned content without specialized marketing or technical AI skills.',
+            creator: '@encantaAI',
+            images: ['https://encanta.io/images/social-card.png'],
+        },
+        robots: {
+            index: true,
+            follow: true,
+        },
+    };
+}
 
 export default async function MarketingLayout({
-    children
+    children,
 }: {
-    children: React.ReactNode
+    children: React.ReactNode;
 }) {
     return (
-        <div className="flex min-h-screen flex-col">
-            <header className="sticky top-0 z-40 w-full border-b bg-background">
-                <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
-                    <div className="flex gap-6 md:gap-10">
-                        <Link href="/" className="flex items-center space-x-2">
-                            <span className="inline-block font-bold text-xl encanta-gradient-text">Encanta</span>
-                        </Link>
-                        <nav className="hidden md:flex gap-6">
-                            <Link
-                                href="/features"
-                                className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
-                            >
-                                Features
-                            </Link>
-                            <Link
-                                href="/pricing"
-                                className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
-                            >
-                                Pricing
-                            </Link>
-                            <Link
-                                href="/about"
-                                className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
-                            >
-                                About
-                            </Link>
-                            <Link
-                                href="/contact"
-                                className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
-                            >
-                                Contact
-                            </Link>
-                        </nav>
-                    </div>
-                    <div className="flex flex-1 items-center justify-end space-x-4">
-                        <nav className="flex items-center space-x-2">
-                            <Link href="/login" passHref>
-                                <Button variant="ghost">Login</Button>
-                            </Link>
-                            <Link href="/register" passHref>
-                                <Button className="encanta-gradient-bg">Sign Up</Button>
-                            </Link>
-                        </nav>
-                    </div>
-                </div>
-            </header>
-            <main className="flex-1">{children}</main>
-            <footer className="border-t py-6 md:py-0">
-                <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-                    <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-                        &copy; {new Date().getFullYear()} Encanta. All rights reserved.
-                    </p>
-                    <div className="flex items-center gap-4">
-                        <Link
-                            href="/terms"
-                            className="text-sm font-medium text-muted-foreground hover:text-foreground"
-                        >
-                            Terms
-                        </Link>
-                        <Link
-                            href="/privacy"
-                            className="text-sm font-medium text-muted-foreground hover:text-foreground"
-                        >
-                            Privacy
-                        </Link>
-                        <Link
-                            href="/contact"
-                            className="text-sm font-medium text-muted-foreground hover:text-foreground"
-                        >
-                            Contact
-                        </Link>
-                    </div>
-                </div>
-            </footer>
-        </div>
-    )
+        <html lang="en" className={`${fontMontserrat.variable} ${fontRoboto.variable}`}>
+            <body className="min-h-screen flex flex-col font-roboto">
+                <Navbar />
+                {children}
+                <Footer />
+                <Analytics />
+            </body>
+        </html>
+    );
 } 

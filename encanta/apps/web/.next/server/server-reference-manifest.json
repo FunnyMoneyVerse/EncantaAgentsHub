@@ -1,0 +1,270 @@
+{
+  "node": {
+    "7f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12": {
+      "workers": {
+        "app/onboarding/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/overview/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(marketing)/pricing/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/login/[[...sign-in]]/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/content/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/workspaces/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/workspaces/create/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/agents/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/knowledge/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/content/create/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/onboarding/page": "rsc",
+        "app/_not-found/page": "rsc",
+        "app/(dashboard)/dashboard/overview/page": "rsc",
+        "app/page": "rsc",
+        "app/(marketing)/pricing/page": "rsc",
+        "app/(auth)/login/[[...sign-in]]/page": "rsc",
+        "app/(dashboard)/dashboard/content/page": "rsc",
+        "app/(dashboard)/dashboard/workspaces/page": "rsc",
+        "app/(dashboard)/dashboard/workspaces/create/page": "rsc",
+        "app/(dashboard)/dashboard/agents/page": "rsc",
+        "app/(dashboard)/dashboard/knowledge/page": "rsc",
+        "app/(dashboard)/dashboard/content/create/page": "rsc"
+      }
+    },
+    "7f160542e26f48a05c0a7266a3ac47989cc80dfb7d": {
+      "workers": {
+        "app/onboarding/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/overview/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(marketing)/pricing/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/login/[[...sign-in]]/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/content/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/workspaces/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/workspaces/create/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/agents/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/knowledge/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/content/create/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/onboarding/page": "rsc",
+        "app/_not-found/page": "rsc",
+        "app/(dashboard)/dashboard/overview/page": "rsc",
+        "app/page": "rsc",
+        "app/(marketing)/pricing/page": "rsc",
+        "app/(auth)/login/[[...sign-in]]/page": "rsc",
+        "app/(dashboard)/dashboard/content/page": "rsc",
+        "app/(dashboard)/dashboard/workspaces/page": "rsc",
+        "app/(dashboard)/dashboard/workspaces/create/page": "rsc",
+        "app/(dashboard)/dashboard/agents/page": "rsc",
+        "app/(dashboard)/dashboard/knowledge/page": "rsc",
+        "app/(dashboard)/dashboard/content/create/page": "rsc"
+      }
+    },
+    "7f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2": {
+      "workers": {
+        "app/onboarding/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/overview/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(marketing)/pricing/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/login/[[...sign-in]]/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/content/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/workspaces/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/workspaces/create/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/agents/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/knowledge/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/content/create/page": {
+          "moduleId": "(rsc)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f0f42723b9db8b6efb2789d260a9cb8a37b2e8e12%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f160542e26f48a05c0a7266a3ac47989cc80dfb7d%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%2C%7B%22id%22%3A%227f2c1ba4ef81cb49e8e2739356b5b325516fbe8fa2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/onboarding/page": "rsc",
+        "app/_not-found/page": "rsc",
+        "app/(dashboard)/dashboard/overview/page": "rsc",
+        "app/page": "rsc",
+        "app/(marketing)/pricing/page": "rsc",
+        "app/(auth)/login/[[...sign-in]]/page": "rsc",
+        "app/(dashboard)/dashboard/content/page": "rsc",
+        "app/(dashboard)/dashboard/workspaces/page": "rsc",
+        "app/(dashboard)/dashboard/workspaces/create/page": "rsc",
+        "app/(dashboard)/dashboard/agents/page": "rsc",
+        "app/(dashboard)/dashboard/knowledge/page": "rsc",
+        "app/(dashboard)/dashboard/content/create/page": "rsc"
+      }
+    },
+    "7fd7545b26bcaed2f8aef57f0d516d58b97d407843": {
+      "workers": {
+        "app/onboarding/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/overview/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(marketing)/pricing/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(auth)/login/[[...sign-in]]/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/content/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/workspaces/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/workspaces/create/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/agents/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/knowledge/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(dashboard)/dashboard/content/create/page": {
+          "moduleId": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnaeemshabir%2FEncanta%2FEncantaAgentsHub%2Fencanta%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fd7545b26bcaed2f8aef57f0d516d58b97d407843%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/onboarding/page": "action-browser",
+        "app/_not-found/page": "action-browser",
+        "app/(dashboard)/dashboard/overview/page": "action-browser",
+        "app/page": "action-browser",
+        "app/(marketing)/pricing/page": "action-browser",
+        "app/(auth)/login/[[...sign-in]]/page": "action-browser",
+        "app/(dashboard)/dashboard/content/page": "action-browser",
+        "app/(dashboard)/dashboard/workspaces/page": "action-browser",
+        "app/(dashboard)/dashboard/workspaces/create/page": "action-browser",
+        "app/(dashboard)/dashboard/agents/page": "action-browser",
+        "app/(dashboard)/dashboard/knowledge/page": "action-browser",
+        "app/(dashboard)/dashboard/content/create/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "F2SAMS8OVpswvbJd8X9I68lSmdp4u31F+YayvvFIBCc="
+}

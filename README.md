@@ -2,6 +2,17 @@
 
 Encanta is an AI-powered content platform built to help startups and SMEs produce professional, strategically aligned content without the need for specialized marketing or technical AI skills. The platform combines the latest AI technology with strategic marketing expertise to empower businesses with both a self-service SaaS dashboard and high-touch consulting services.
 
+## Documentation Structure
+
+This project maintains two sets of documentation files:
+
+1. **Root Documentation** (this README and CHANGELOG): Contains comprehensive project documentation and history.
+2. **Monorepo Documentation** (`/encanta/README.md` and `/encanta/CHANGELOG.md`): Contains information specific to the monorepo structure.
+
+For more information about this structure, see:
+- [README-STRUCTURE.md](./README-STRUCTURE.md) - Explains the dual README structure
+- [CHANGELOG-STRUCTURE.md](./CHANGELOG-STRUCTURE.md) - Explains the dual CHANGELOG structure
+
 ## Monorepo Structure
 
 This project is organized as a monorepo using npm workspaces. The main structure is:
@@ -150,6 +161,80 @@ From the root directory, you can run:
 2. Make your changes
 3. Submit a pull request
 
+## Storage Naming Conventions
+
+Due to Supabase storage constraints, bucket names use hyphens (e.g., `brand-assets`), 
+while database fields and references use underscores (e.g., `brand_assets`). 
+
+To handle this naming difference consistently, we've implemented helper functions in:
+- Frontend: `src/utils/storage-helpers.ts`
+- Backend: `app/utils/storage.py`
+
+Always use these helpers when constructing storage paths to avoid errors.
+
+Example usage in frontend:
+```typescript
+import { getStoragePath, BucketType } from '@/utils/storage-helpers';
+
+// Get a storage path for a file
+const path = getStoragePath(
+  'BRAND_ASSETS', // Use underscore in code
+  userId,
+  'logo.png'
+);
+// Result: "brand-assets/user123/logo.png" (with hyphen in actual path)
+```
+
+Example usage in backend:
+```python
+from app.utils.storage import get_storage_path
+
+# Get a storage path for a file
+path = get_storage_path(
+  "BRAND_ASSETS",  # Use underscore in code
+  user_id,
+  "logo.png"
+)
+# Result: "brand-assets/user123/logo.png" (with hyphen in actual path)
+```
+
 ## License
 
 MIT
+
+## Authentication Setup
+
+Encanta uses Clerk for authentication. Here's how it's set up:
+
+### Route Structure
+
+- Login: `/login/[[...sign-in]]` - Catch-all route for Clerk's SignIn component
+- Signup: `/signup/[[...sign-up]]` - Catch-all route for Clerk's SignUp component
+- SSO Callback: `/sso-callback` - Handles OAuth provider callbacks
+
+### Middleware Configuration
+
+The middleware (`src/middleware.ts`) is configured to:
+- Allow public access to marketing pages and authentication routes
+- Redirect authenticated users away from auth pages to the dashboard
+- Protect all dashboard routes
+- Handle OAuth callback routes
+
+### Environment Variables
+
+Required Clerk environment variables:
+```
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_publishable_key
+CLERK_SECRET_KEY=your_secret_key
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/login
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/signup
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+```
+
+### OAuth Providers
+
+To enable OAuth providers (Google, GitHub, etc.):
+1. Configure the providers in your Clerk dashboard
+2. Add the callback URL: `https://your-domain.com/sso-callback`
+3. No additional code changes are needed as the SSO callback page is already set up

@@ -1,5 +1,7 @@
+import { fontFamily } from 'tailwindcss/defaultTheme';
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const config = {
     darkMode: ["class"],
     content: [
         './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -16,6 +18,13 @@ module.exports = {
         },
         extend: {
             colors: {
+                // Brand colors
+                'majestic-purple': '#6A0DAD',
+                'midnight-black': '#1C1C1C',
+                'pearl-white': '#F5F5F5',
+                'vibrant-teal': '#00B4D8',
+
+                // Shadcn color mapping
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
@@ -55,6 +64,10 @@ module.exports = {
                 md: "calc(var(--radius) - 2px)",
                 sm: "calc(var(--radius) - 4px)",
             },
+            fontFamily: {
+                montserrat: ['var(--font-montserrat)', ...fontFamily.sans],
+                roboto: ['var(--font-roboto)', ...fontFamily.sans],
+            },
             keyframes: {
                 "accordion-down": {
                     from: { height: 0 },
@@ -64,12 +77,24 @@ module.exports = {
                     from: { height: "var(--radix-accordion-content-height)" },
                     to: { height: 0 },
                 },
+                "float": {
+                    "0%": { transform: "translateY(0)" },
+                    "50%": { transform: "translateY(-10px)" },
+                },
+                "pulse-slow": {
+                    "0%": { opacity: 1 },
+                    "50%": { opacity: 0.8 },
+                },
             },
             animation: {
                 "accordion-down": "accordion-down 0.2s ease-out",
                 "accordion-up": "accordion-up 0.2s ease-out",
+                "float": "float 6s ease-in-out infinite",
+                "pulse-slow": "pulse-slow 4s ease-in-out infinite",
             },
         },
     },
     plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
-} 
+}
+
+export default config; 

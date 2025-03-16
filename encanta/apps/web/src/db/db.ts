@@ -10,7 +10,8 @@ import {
     knowledgeFilesTable,
     subscriptionsTable,
     profilesTable,
-    todosTable
+    todosTable,
+    agentConfigsTable
 } from "@/db/schema"
 
 // Database connection string
@@ -30,7 +31,8 @@ const schema = {
     knowledgeFiles: knowledgeFilesTable,
     subscriptions: subscriptionsTable,
     profiles: profilesTable,
-    todos: todosTable
+    todos: todosTable,
+    agentConfigs: agentConfigsTable
 }
 
 // Create drizzle instance

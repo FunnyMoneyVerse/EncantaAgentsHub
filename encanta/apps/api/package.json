@@ -3,9 +3,11 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "nodemon --exec ts-node app/index.ts",
+        "dev": "python run.py",
+        "dev:express": "PORT=3001 nodemon --exec ts-node app/index.ts",
         "build": "tsc",
-        "start": "node dist/index.js",
+        "start": "uvicorn app.main:app --host 0.0.0.0 --port 3001",
+        "start:express": "node dist/index.js",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
         "format": "prettier --write \"**/*.{ts,tsx,json}\"",
