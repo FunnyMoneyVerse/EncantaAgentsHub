@@ -1,8 +1,7 @@
 {
-  "/page": "app/page.js",
   "/(dashboard)/dashboard/knowledge/page": "app/(dashboard)/dashboard/knowledge/page.js",
-  "/(dashboard)/dashboard/overview/page": "app/(dashboard)/dashboard/overview/page.js",
-  "/(dashboard)/dashboard/agents/page": "app/(dashboard)/dashboard/agents/page.js",
   "/(auth)/login/[[...sign-in]]/page": "app/(auth)/login/[[...sign-in]]/page.js",
-  "/(dashboard)/dashboard/content/create/page": "app/(dashboard)/dashboard/content/create/page.js"
+  "/(dashboard)/dashboard/overview/page": "app/(dashboard)/dashboard/overview/page.js",
+  "/(dashboard)/dashboard/content/create/page": "app/(dashboard)/dashboard/content/create/page.js",
+  "/(dashboard)/dashboard/agents/page": "app/(dashboard)/dashboard/agents/page.js"
 }
