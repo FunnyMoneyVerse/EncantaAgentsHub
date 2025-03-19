@@ -1,3 +1,94 @@
+# Encanta
+
+Encanta is an AI-powered content platform that combines advanced AI technology with strategic marketing expertise. The platform enables startups and SMEs to produce professional, strategically aligned content without needing specialized marketing knowledge or technical AI skills.
+
+## Features
+
+- **Dual-Mode Experience**: Self-service and consulting options to match your needs
+- **Workspace Collaboration**: Organize and collaborate on content within workspaces 
+- **Content Management**: Create, edit, and publish various content types including blogs, emails, and social media
+- **AI-Powered Generation**: Leverage AI to generate high-quality content based on your brand and requirements
+- **Brand Profile Management**: Maintain brand consistency across all content
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 16+
+- Python 3.8+
+- SQLite (for development)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/encanta.git
+cd encanta
+```
+
+2. Install dependencies:
+
+```bash
+# Install web dependencies
+cd encanta/apps/web
+npm install
+
+# Install API dependencies
+cd ../api
+pip install -r requirements.txt
+```
+
+3. Set up environment variables:
+
+Create `.env.local` files in `encanta/apps/web` and `encanta/apps/api` with the necessary environment variables.
+
+### Running the Development Server
+
+```bash
+# Start the web app (from the project root)
+cd encanta/apps/web
+npm run dev
+
+# Start the API server (in a separate terminal)
+cd encanta/apps/api
+python simple_main.py
+```
+
+## Architecture
+
+Encanta follows a monorepo structure with two main applications:
+
+- **Web App (`/encanta/apps/web`)**: Next.js frontend with Tailwind CSS and Shadcn UI
+- **API (`/encanta/apps/api`)**: FastAPI backend with SQLite database (for development)
+
+## API Documentation
+
+The API is available at `http://localhost:3004` by default. Key endpoints include:
+
+- `/workspaces` - Manage workspaces
+- `/content` - Manage content within workspaces
+- `/content/workspace/{workspace_id}` - Get all content for a specific workspace
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn UI](https://ui.shadcn.com/)
+
 # Encanta Monorepo
 
 This is the main monorepo for the Encanta Agents Hub project. It contains all the applications and shared packages.
